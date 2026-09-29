@@ -1,0 +1,35 @@
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {canvasTexture,shape,group,beam,material} from './graphics.js';
+import {EQUIPMENT,SLOT_NAMES} from './content.js';
+import {characterMaterialRole} from './character-materials.js';
+export class Character{
+ constructor(scene,assets){this.assets=assets;this.root=new THREE.Group();scene.add(this.root);this.pivot=new THREE.Group();this.root.add(this.pivot);this.actions=new Map();this.current='';this.fur=[];this.equipment=[];this.cloaks=[];const tex=canvasTexture(128,c=>{const g=c.createRadialGradient(64,64,2,64,64,63);g.addColorStop(0,'#1b20275c');g.addColorStop(1,'#1b202700');c.fillStyle=g;c.fillRect(0,0,128,128);});this.shadow=new THREE.Mesh(new THREE.PlaneGeometry(2.1,1.8),new THREE.MeshBasicMaterial({map:tex,transparent:true,depthWrite:false}));this.shadow.rotation.x=-Math.PI/2;this.shadow.position.y=.02;this.root.add(this.shadow);}
+ async load(progress){const gltf=await new GLTFLoader().loadAsync('/models/manmarubuu-shrine.glb',progress);this.model=gltf.scene;this.pivot.add(this.model);this.model.updateMatrixWorld(true);const bounds=new THREE.Box3().setFromObject(this.model),size=bounds.getSize(new THREE.Vector3());this.model.scale.setScalar(1.65/size.y);this.model.position.y=-bounds.min.y*this.model.scale.x;this.materials=[];const cache=new Map();this.model.traverse(o=>{if(!o.isMesh)return;o.castShadow=true;o.receiveShadow=true;o.frustumCulled=false;const list=Array.isArray(o.material)?o.material:[o.material];o.material=list.map(m=>{if(cache.has(m.uuid))return cache.get(m.uuid);const role=characterMaterialRole(m.name),cloth=role==='cloth'||role==='pink',eye=role==='eyes';const n=new THREE.MeshPhysicalMaterial();THREE.MeshStandardMaterial.prototype.copy.call(n,m);n.roughness=eye?.83:.92;n.userData.role=role;n.userData.cloth=cloth&&!eye;n.sheen=n.userData.cloth?.4:0;n.sheenColor=new THREE.Color('#f7eddb');n.sheenRoughness=.82;if(eye){n.color.set('#46302c');n.roughness=.8;n.normalMap=null;}for(const t of [n.map,n.normalMap])if(t)t.anisotropy=8;cache.set(m.uuid,n);this.materials.push(n);return n;});if(o.material.length===1)o.material=o.material[0];if(o.name.startsWith('FurLOD_')){this.fur.push(o);o.castShadow=false;}});this.mixer=new THREE.AnimationMixer(this.model);for(const clip of gltf.animations)this.actions.set(clip.name,this.mixer.clipAction(clip));this.play('Idle',true,0);this.mixer.update(0);this.model.updateMatrixWorld(true);this.bones={};this.model.traverse(o=>{if(o.isBone)this.bones[o.name]=o;});this.lods=new Map();this.model.traverse(o=>{if(o.isMesh&&!o.name.startsWith('FurLOD_'))this.lods.set(o.name,{object:o,geometries:[o.geometry]});});
+    await Promise.all([1,2].map(async level=>{const lod=await new GLTFLoader().loadAsync('/models/manmarubuu-lod'+level+'.glb');lod.scene.traverse(o=>{const entry=this.lods.get(o.name);if(o.isMesh&&entry)entry.geometries[level]=o.geometry;});}));
+    const wardrobe=await new GLTFLoader().loadAsync('/models/manmarubuu-equipment.glb');this.wardrobe=wardrobe.scene;this.wardrobe.traverse(o=>{if(!o.isMesh)return;o.geometry.userData.shared=true;o.castShadow=true;o.receiveShadow=true;o.frustumCulled=false;});
+    this.metadata={animations:gltf.animations.map(c=>c.name),size:size.toArray(),furMeshes:this.fur.length,lodMeshes:[...this.lods.values()].filter(e=>e.geometries.length===3).length};return this.metadata;}
+ play(name,loop=true,fade=.14,speed=1){if(!this.mixer||(this.current===name&&loop&&this.action?.loop===THREE.LoopRepeat))return;const next=this.actions.get(name)||this.actions.get('Idle');if(!next)return;if(this.action&&this.action!==next)this.action.fadeOut(fade);next.paused=false;next.reset().setEffectiveTimeScale(speed).setEffectiveWeight(1).setLoop(loop?THREE.LoopRepeat:THREE.LoopOnce,loop?Infinity:1);next.clampWhenFinished=!loop;next.fadeIn(fade).play();this.action=next;this.current=name;}
+ attachment(boneName,point){const bone=this.bones[boneName]||this.bones[boneName.replaceAll('.','')]||this.model;this.model.updateMatrixWorld(true);const anchor=new THREE.Group(),world=this.root.localToWorld(new THREE.Vector3(...point));anchor.position.copy(bone.worldToLocal(world));const scale=bone.getWorldScale(new THREE.Vector3());anchor.scale.set(1/scale.x,1/scale.y,1/scale.z);anchor.quaternion.copy(bone.getWorldQuaternion(new THREE.Quaternion()).invert().multiply(this.root.getWorldQuaternion(new THREE.Quaternion())));bone.add(anchor);this.equipment.push(anchor);return anchor;}
+ // Place offline-authored fitted assets in the original rig's local space.
+ equip(state){if(!this.model||!this.wardrobe)return;for(const o of this.equipment)o.removeFromParent();this.equipment=[];this.cloaks=[];
+  for(const action of this.actions.values())action.stop();this.current='';this.play('Idle',true,0);this.mixer.update(0);this.model.updateMatrixWorld(true);
+  const mounts={horn:['Head',[0,1.64,.44]],head:['Head',[.43,1.47,.36]],body:['Body',[0,.47,-.05]],charm:['Body',[0,.74,.37]]};
+  for(const slot of Object.keys(SLOT_NAMES)){
+   const e=EQUIPMENT[state.appearance[slot]??state.equipment[slot]];if(!e)continue;
+   const asset=this.wardrobe.getObjectByName(e.id);if(!asset)throw Error('装備アセット未読込: '+e.id);
+   const points=slot==='feet'?[['Foot.L',[-.28,.15,.12]],['Foot.R',[.28,.15,.12]]]:[mounts[slot]];
+   for(const [bone,point] of points){const anchor=this.attachment(bone,point),model=asset.clone(true);anchor.add(model);anchor.userData.equipment={id:e.id,source:'manmarubuu-equipment.glb'};model.userData.dynamic=true;
+    if(slot==='head')anchor.rotation.y+=.28;
+    if(slot==='body'&&this.assets){this.assets.place(anchor,'Pouch_Large',.40,-.07,.16,{height:.24,width:.18,depth:.15,rotation:.3});if(e.look==='vest')this.assets.place(anchor,'Bag',-.30,.06,-.45,{height:.32,width:.23,depth:.17,rotation:Math.PI});}
+   }
+  }
+ }
+ // Drive the authored clip on the same clock as contact, VFX and camera motion.
+ sample(name,phase){if(this.current!==name||!this.action?.paused)this.play(name,false,0);const a=this.actions.get(name);if(!a)return;a.paused=true;a.time=Math.min(a.getClip().duration-.00001,Math.max(0,phase)*a.getClip().duration);this.mixer.update(0);this.model.updateMatrixWorld(true);}
+
+ quality(q){this.settings=q;for(const m of this.materials||[])m.sheen=m.userData.cloth?(q.fur>=1?.4:.12):0;}
+ update(dt,camera){this.mixer?.update(dt);this.time=(this.time||0)+dt;for(const c of this.cloaks)c.rotation.x=Math.sin(this.time*2.7)*.035;const distance=camera?camera.position.distanceTo(this.root.position):0;const lod=this.settings?.fur===0?2:distance>19?2:distance>8?1:0;if(lod!==this.lodLevel){for(const e of this.lods?.values()||[])e.object.geometry=e.geometries[lod]||e.geometries[0];this.lodLevel=lod;}this.fur.forEach((o,i)=>o.visible=(this.settings?.fur??2)>0&&distance<18&&((this.settings?.fur??2)===2||i%2===0));}
+ face(x,z){this.root.rotation.y=Math.atan2(x-this.root.position.x,z-this.root.position.z);}
+ resetPose(){this.pivot.rotation.set(0,0,0);this.pivot.position.set(0,0,0);this.pivot.scale.setScalar(1);}
+}

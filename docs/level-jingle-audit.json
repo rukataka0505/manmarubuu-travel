@@ -1,0 +1,20 @@
+{
+  "path": "public\\audio\\SFX\\MaouDamashii\\maou_se_jingle07.mp3",
+  "source": "https://maou.audio/se_jingle07/",
+  "credit": "魔王魂 / 作曲 森田交一",
+  "use": "レベルアップSE",
+  "duration": 5.0634,
+  "levels": {
+    "input_i": "-9.58",
+    "input_tp": "0.01",
+    "input_lra": "3.10",
+    "input_thresh": "-21.22",
+    "output_i": "-16.21",
+    "output_tp": "-6.77",
+    "output_lra": "2.50",
+    "output_thresh": "-27.47",
+    "normalization_type": "dynamic",
+    "target_offset": "0.21"
+  },
+  "method": "duration and level measurement only; no listening or source changes"
+}

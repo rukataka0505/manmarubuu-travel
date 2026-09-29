@@ -1,0 +1,48 @@
+{
+  "author": "Kay Lousberg",
+  "license": "CC0-1.0",
+  "sources": [
+    "https://kaylousberg.itch.io/kaykit",
+    "https://kaylousberg.itch.io/kaykit-character-animations"
+  ],
+  "models": 5,
+  "importedClips": 65,
+  "files": {
+    "Barbarian.glb": {
+      "bytes": 386648,
+      "sha256": "d37824a1d6e8e8af57ef9ae4a87e9271c3986210fbc432fb44670749a577ccac"
+    },
+    "Knight.glb": {
+      "bytes": 341688,
+      "sha256": "e484370733824a0740683e7f6040aae0d20e5efd4107dde1175d6a2ad7e2f199"
+    },
+    "Mage.glb": {
+      "bytes": 352472,
+      "sha256": "1f7d891bde50b879c70965f155b7b765b166dc3f8518e5abb86c0002f191a26e"
+    },
+    "Ranger.glb": {
+      "bytes": 484712,
+      "sha256": "3a0b0166b9d61d58dcaaa739c3cc0538be46e00d2928dd5cb513d9a41770d2e9"
+    },
+    "Rig_Medium_General.glb": {
+      "bytes": 828240,
+      "sha256": "5f725c0f745f36078c7238968cd5c04843cbc6260689eb6e7f5e2bbd7ffdd7ad"
+    },
+    "Rig_Medium_MovementBasic.glb": {
+      "bytes": 689624,
+      "sha256": "11422afd50abf7e8c92ea107e2e0bc94abd38023d6d15f55ad580347efbfa29e"
+    },
+    "Rig_Medium_Simulation.glb": {
+      "bytes": 855904,
+      "sha256": "ab6ffeed40c8281dd0ce0506534eadf7385151f1c266643a10fa2a0f0a7ba3b1"
+    },
+    "Rig_Medium_Tools.glb": {
+      "bytes": 1461204,
+      "sha256": "e3b62dc122c5073373376a846e354137add2088ddcce8731c389fc5c20734aad"
+    },
+    "Rogue.glb": {
+      "bytes": 409188,
+      "sha256": "cae5d9b2f08d53f7b4ab2617d9f42f021c546eb10920455fdcd82a110867fae4"
+    }
+  }
+}

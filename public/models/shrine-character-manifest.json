@@ -1,0 +1,313 @@
+{
+  "source": "permitted original Blender model",
+  "baked": [
+    {
+      "object": "Arm.L | soft ivory sleeve",
+      "size": 512
+    },
+    {
+      "object": "Arm.R | soft ivory sleeve",
+      "size": 512
+    },
+    {
+      "object": "Body | compressed seated belly",
+      "size": 1024
+    },
+    {
+      "object": "Ear.L | folded over upper rim",
+      "size": 512
+    },
+    {
+      "object": "Ear.R | open pleated inner cloth",
+      "size": 512
+    },
+    {
+      "object": "Head | shaped cheeks and crown",
+      "size": 2048
+    },
+    {
+      "object": "Hoof.foot.L | flattened pink foot",
+      "size": 512
+    },
+    {
+      "object": "Hoof.foot.R | flattened pink foot",
+      "size": 512
+    },
+    {
+      "object": "Hoof.hand.L | tied pink end",
+      "size": 512
+    },
+    {
+      "object": "Hoof.hand.R | tied pink end",
+      "size": 512
+    },
+    {
+      "object": "Snout | upward tilted stuffed pink cotton",
+      "size": 512
+    }
+  ],
+  "sampledLoops": 590,
+  "objects": [
+    {
+      "name": "Arm sleeve seam -1.001",
+      "triangles": 960
+    },
+    {
+      "name": "Arm sleeve seam 1.001",
+      "triangles": 960
+    },
+    {
+      "name": "Arm.L | soft ivory sleeve",
+      "triangles": 2572
+    },
+    {
+      "name": "Arm.R | soft ivory sleeve",
+      "triangles": 2572
+    },
+    {
+      "name": "Back of head | closing stitches.001",
+      "triangles": 1480
+    },
+    {
+      "name": "Body seam 0.001",
+      "triangles": 1040
+    },
+    {
+      "name": "Body seam 1.001",
+      "triangles": 1040
+    },
+    {
+      "name": "Body seam 2.001",
+      "triangles": 1520
+    },
+    {
+      "name": "Body | compressed seated belly",
+      "triangles": 11930
+    },
+    {
+      "name": "Cheek panel | ivory running stitches.001",
+      "triangles": 1520
+    },
+    {
+      "name": "Closed eye buried thread core -1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Closed eye buried thread core 1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Closed eye satin stitch -1.001",
+      "triangles": 3000
+    },
+    {
+      "name": "Closed eye satin stitch 1.001",
+      "triangles": 3000
+    },
+    {
+      "name": "Crown panel stitches 0.001",
+      "triangles": 1420
+    },
+    {
+      "name": "Crown panel stitches 1.001",
+      "triangles": 1440
+    },
+    {
+      "name": "Ear edge stitches -1.001",
+      "triangles": 1640
+    },
+    {
+      "name": "Ear edge stitches 1.001",
+      "triangles": 1000
+    },
+    {
+      "name": "Ear inner seam -1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Ear inner seam 1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Ear.L | folded over upper rim",
+      "triangles": 2558
+    },
+    {
+      "name": "Ear.R | open pleated inner cloth",
+      "triangles": 2558
+    },
+    {
+      "name": "Faded nostril stitching -1.001",
+      "triangles": 660
+    },
+    {
+      "name": "Faded nostril stitching 1.001",
+      "triangles": 660
+    },
+    {
+      "name": "Foot pink closing tie -1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Foot pink closing tie 1.001",
+      "triangles": 70
+    },
+    {
+      "name": "FurLOD_Terry loops | Arm.L | soft ivory sleeve",
+      "triangles": 1152
+    },
+    {
+      "name": "FurLOD_Terry loops | Arm.R | soft ivory sleeve",
+      "triangles": 1152
+    },
+    {
+      "name": "FurLOD_Terry loops | Body | compressed seated belly",
+      "triangles": 6120
+    },
+    {
+      "name": "FurLOD_Terry loops | Ear.L | folded over upper rim",
+      "triangles": 1152
+    },
+    {
+      "name": "FurLOD_Terry loops | Ear.R | open pleated inner cloth",
+      "triangles": 1152
+    },
+    {
+      "name": "FurLOD_Terry loops | Head | shaped cheeks and crown",
+      "triangles": 9360
+    },
+    {
+      "name": "FurLOD_Terry loops | Tail | flat ivory fabric strap",
+      "triangles": 1152
+    },
+    {
+      "name": "Hand pink closing tie -1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Hand pink closing tie 1.001",
+      "triangles": 70
+    },
+    {
+      "name": "Head | shaped cheeks and crown",
+      "triangles": 19910
+    },
+    {
+      "name": "Hoof.foot.L | flattened pink foot",
+      "triangles": 2574
+    },
+    {
+      "name": "Hoof.foot.R | flattened pink foot",
+      "triangles": 2574
+    },
+    {
+      "name": "Hoof.hand.L | tied pink end",
+      "triangles": 2574
+    },
+    {
+      "name": "Hoof.hand.R | tied pink end",
+      "triangles": 2574
+    },
+    {
+      "name": "Snout bottom center seam.001",
+      "triangles": 580
+    },
+    {
+      "name": "Snout lower horizontal seam.001",
+      "triangles": 1520
+    },
+    {
+      "name": "Snout | upward tilted stuffed pink cotton",
+      "triangles": 2584
+    },
+    {
+      "name": "Tail sewn edge 0.001",
+      "triangles": 70
+    },
+    {
+      "name": "Tail sewn edge 12.001",
+      "triangles": 70
+    },
+    {
+      "name": "Tail | flat ivory fabric strap",
+      "triangles": 2618
+    }
+  ],
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Battle_Idle",
+    "BodyBlow",
+    "HornDrill",
+    "Guard",
+    "Hit",
+    "KO",
+    "Victory",
+    "Jump_Start",
+    "Jump_Air",
+    "Landing"
+  ],
+  "originalPalette": {
+    "01 · Aged warm ivory terry backing": [
+      0.7819499373435974,
+      0.7536847591400146,
+      0.6626710891723633,
+      1.0
+    ],
+    "02 · Dusty rose cotton | snout, ears, hooves": [
+      0.54779452085495,
+      0.26118946075439453,
+      0.22246615588665009,
+      1.0
+    ],
+    "03 · Ivory sewing thread": [
+      0.7111099362373352,
+      0.6828051805496216,
+      0.5982347726821899,
+      1.0
+    ],
+    "04 · Rose sewing thread": [
+      0.34239163994789124,
+      0.10348451137542725,
+      0.10107798874378204,
+      1.0
+    ],
+    "05 · Original deep pink hoof ties": [
+      0.33034372329711914,
+      0.03310476616024971,
+      0.06603033095598221,
+      1.0
+    ],
+    "06 · Cocoa satin-stitch closed eyes": [
+      0.07323895394802094,
+      0.01915069669485092,
+      0.007850573398172855,
+      1.0
+    ],
+    "07 · Faded pink nostril embroidery": [
+      0.43248310685157776,
+      0.13286831974983215,
+      0.10048151016235352,
+      1.0
+    ],
+    "08 · Ivory loop yarn": [
+      0.7908930778503418,
+      0.7624383568763733,
+      0.6741717457771301,
+      1.0
+    ],
+    "09 · Fine ivory fiber ends": [
+      0.812786340713501,
+      0.7850085496902466,
+      0.6983722448348999,
+      1.0
+    ],
+    "10 · Cotton micro fuzz": [
+      0.5803693532943726,
+      0.2890384793281555,
+      0.24687141180038452,
+      1.0
+    ]
+  }
+}

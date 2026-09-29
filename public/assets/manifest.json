@@ -1,0 +1,1131 @@
+{
+  "author": "Quaternius",
+  "license": "CC0-1.0",
+  "models": {
+    "Wall_Plaster_Straight": {
+      "url": "/assets/village/Wall_Plaster_Straight.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Straight.gltf",
+      "vertices": 134,
+      "triangles": 86,
+      "materials": 2
+    },
+    "Wall_Plaster_Door_Round": {
+      "url": "/assets/village/Wall_Plaster_Door_Round.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Door_Round.gltf",
+      "vertices": 201,
+      "triangles": 137,
+      "materials": 3
+    },
+    "Wall_Plaster_Window_Wide_Round": {
+      "url": "/assets/village/Wall_Plaster_Window_Wide_Round.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_Plaster_Window_Wide_Round.gltf",
+      "vertices": 148,
+      "triangles": 124,
+      "materials": 3
+    },
+    "Wall_UnevenBrick_Straight": {
+      "url": "/assets/village/Wall_UnevenBrick_Straight.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_UnevenBrick_Straight.gltf",
+      "vertices": 76,
+      "triangles": 56,
+      "materials": 3
+    },
+    "Wall_UnevenBrick_Door_Round": {
+      "url": "/assets/village/Wall_UnevenBrick_Door_Round.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_UnevenBrick_Door_Round.gltf",
+      "vertices": 142,
+      "triangles": 136,
+      "materials": 3
+    },
+    "Wall_UnevenBrick_Window_Thin_Round": {
+      "url": "/assets/village/Wall_UnevenBrick_Window_Thin_Round.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_UnevenBrick_Window_Thin_Round.gltf",
+      "vertices": 165,
+      "triangles": 158,
+      "materials": 3
+    },
+    "Wall_Arch": {
+      "url": "/assets/village/Wall_Arch.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_Arch.gltf",
+      "vertices": 260,
+      "triangles": 196,
+      "materials": 1
+    },
+    "DoorFrame_Round_Brick": {
+      "url": "/assets/village/DoorFrame_Round_Brick.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/DoorFrame_Round_Brick.gltf",
+      "vertices": 1616,
+      "triangles": 2046,
+      "materials": 1
+    },
+    "Door_1_Round": {
+      "url": "/assets/village/Door_1_Round.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Door_1_Round.gltf",
+      "vertices": 772,
+      "triangles": 470,
+      "materials": 2
+    },
+    "Window_Wide_Round1": {
+      "url": "/assets/village/Window_Wide_Round1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Window_Wide_Round1.gltf",
+      "vertices": 492,
+      "triangles": 354,
+      "materials": 2
+    },
+    "Window_Thin_Round1": {
+      "url": "/assets/village/Window_Thin_Round1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Window_Thin_Round1.gltf",
+      "vertices": 583,
+      "triangles": 418,
+      "materials": 2
+    },
+    "WindowShutters_Wide_Round_Open": {
+      "url": "/assets/village/WindowShutters_Wide_Round_Open.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/WindowShutters_Wide_Round_Open.gltf",
+      "vertices": 268,
+      "triangles": 136,
+      "materials": 1
+    },
+    "Roof_RoundTiles_4x4": {
+      "url": "/assets/village/Roof_RoundTiles_4x4.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_RoundTiles_4x4.gltf",
+      "vertices": 2380,
+      "triangles": 1996,
+      "materials": 2
+    },
+    "Roof_RoundTiles_6x8": {
+      "url": "/assets/village/Roof_RoundTiles_6x8.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_RoundTiles_6x8.gltf",
+      "vertices": 4124,
+      "triangles": 3796,
+      "materials": 2
+    },
+    "Roof_RoundTiles_8x10": {
+      "url": "/assets/village/Roof_RoundTiles_8x10.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_RoundTiles_8x10.gltf",
+      "vertices": 4972,
+      "triangles": 4480,
+      "materials": 2
+    },
+    "Roof_Tower_RoundTiles": {
+      "url": "/assets/village/Roof_Tower_RoundTiles.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_Tower_RoundTiles.gltf",
+      "vertices": 4479,
+      "triangles": 4024,
+      "materials": 4
+    },
+    "Roof_Dormer_RoundTile": {
+      "url": "/assets/village/Roof_Dormer_RoundTile.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_Dormer_RoundTile.gltf",
+      "vertices": 1392,
+      "triangles": 904,
+      "materials": 4
+    },
+    "Roof_Front_Brick4": {
+      "url": "/assets/village/Roof_Front_Brick4.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Roof_Front_Brick4.gltf",
+      "vertices": 368,
+      "triangles": 252,
+      "materials": 2
+    },
+    "Floor_UnevenBrick": {
+      "url": "/assets/village/Floor_UnevenBrick.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Floor_UnevenBrick.gltf",
+      "vertices": 8,
+      "triangles": 4,
+      "materials": 1
+    },
+    "Floor_WoodDark": {
+      "url": "/assets/village/Floor_WoodDark.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Floor_WoodDark.gltf",
+      "vertices": 64,
+      "triangles": 32,
+      "materials": 1
+    },
+    "Prop_Chimney": {
+      "url": "/assets/village/Prop_Chimney.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Chimney.gltf",
+      "vertices": 524,
+      "triangles": 618,
+      "materials": 2
+    },
+    "Prop_Chimney2": {
+      "url": "/assets/village/Prop_Chimney2.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Chimney2.gltf",
+      "vertices": 122,
+      "triangles": 130,
+      "materials": 1
+    },
+    "Prop_Vine1": {
+      "url": "/assets/village/Prop_Vine1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Vine1.gltf",
+      "vertices": 159,
+      "triangles": 82,
+      "materials": 1
+    },
+    "Prop_Vine4": {
+      "url": "/assets/village/Prop_Vine4.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Vine4.gltf",
+      "vertices": 61,
+      "triangles": 31,
+      "materials": 1
+    },
+    "Prop_Vine6": {
+      "url": "/assets/village/Prop_Vine6.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Vine6.gltf",
+      "vertices": 178,
+      "triangles": 114,
+      "materials": 1
+    },
+    "Prop_Wagon": {
+      "url": "/assets/village/Prop_Wagon.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Wagon.gltf",
+      "vertices": 2331,
+      "triangles": 1672,
+      "materials": 1
+    },
+    "Prop_WoodenFence_Single": {
+      "url": "/assets/village/Prop_WoodenFence_Single.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_WoodenFence_Single.gltf",
+      "vertices": 80,
+      "triangles": 40,
+      "materials": 1
+    },
+    "Prop_WoodenFence_Extension1": {
+      "url": "/assets/village/Prop_WoodenFence_Extension1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_WoodenFence_Extension1.gltf",
+      "vertices": 64,
+      "triangles": 32,
+      "materials": 1
+    },
+    "Stairs_Exterior_Straight": {
+      "url": "/assets/village/Stairs_Exterior_Straight.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Stairs_Exterior_Straight.gltf",
+      "vertices": 118,
+      "triangles": 62,
+      "materials": 2
+    },
+    "Balcony_Cross_Straight": {
+      "url": "/assets/village/Balcony_Cross_Straight.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Balcony_Cross_Straight.gltf",
+      "vertices": 252,
+      "triangles": 132,
+      "materials": 1
+    },
+    "Corner_Exterior_Brick": {
+      "url": "/assets/village/Corner_Exterior_Brick.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Corner_Exterior_Brick.gltf",
+      "vertices": 2424,
+      "triangles": 3102,
+      "materials": 1
+    },
+    "Prop_Brick1": {
+      "url": "/assets/village/Prop_Brick1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Brick1.gltf",
+      "vertices": 82,
+      "triangles": 108,
+      "materials": 1
+    },
+    "Prop_Brick2": {
+      "url": "/assets/village/Prop_Brick2.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Brick2.gltf",
+      "vertices": 77,
+      "triangles": 94,
+      "materials": 1
+    },
+    "Prop_ExteriorBorder_Straight1": {
+      "url": "/assets/village/Prop_ExteriorBorder_Straight1.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_ExteriorBorder_Straight1.gltf",
+      "vertices": 28,
+      "triangles": 16,
+      "materials": 1
+    },
+    "Prop_ExteriorBorder_Corner": {
+      "url": "/assets/village/Prop_ExteriorBorder_Corner.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_ExteriorBorder_Corner.gltf",
+      "vertices": 34,
+      "triangles": 18,
+      "materials": 1
+    },
+    "Prop_Support": {
+      "url": "/assets/village/Prop_Support.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Prop_Support.gltf",
+      "vertices": 32,
+      "triangles": 16,
+      "materials": 1
+    },
+    "Floor_Brick": {
+      "url": "/assets/village/Floor_Brick.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Floor_Brick.gltf",
+      "vertices": 8,
+      "triangles": 4,
+      "materials": 1
+    },
+    "Wall_UnevenBrick_Door_Flat": {
+      "url": "/assets/village/Wall_UnevenBrick_Door_Flat.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Wall_UnevenBrick_Door_Flat.gltf",
+      "vertices": 96,
+      "triangles": 74,
+      "materials": 3
+    },
+    "Window_Roof_Thin": {
+      "url": "/assets/village/Window_Roof_Thin.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Window_Roof_Thin.gltf",
+      "vertices": 92,
+      "triangles": 46,
+      "materials": 2
+    },
+    "Overhang_UnevenBrick_Long": {
+      "url": "/assets/village/Overhang_UnevenBrick_Long.gltf",
+      "kit": "village",
+      "archive": "Medieval Village MegaKit[Standard].zip",
+      "source": "Medieval Village MegaKit[Standard]/glTF/Overhang_UnevenBrick_Long.gltf",
+      "vertices": 246,
+      "triangles": 196,
+      "materials": 3
+    },
+    "CommonTree_1": {
+      "url": "/assets/nature/CommonTree_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/CommonTree_1.gltf",
+      "vertices": 9458,
+      "triangles": 6265,
+      "materials": 2
+    },
+    "CommonTree_2": {
+      "url": "/assets/nature/CommonTree_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/CommonTree_2.gltf",
+      "vertices": 8107,
+      "triangles": 5648,
+      "materials": 2
+    },
+    "CommonTree_3": {
+      "url": "/assets/nature/CommonTree_3.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/CommonTree_3.gltf",
+      "vertices": 5749,
+      "triangles": 3505,
+      "materials": 2
+    },
+    "CommonTree_4": {
+      "url": "/assets/nature/CommonTree_4.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/CommonTree_4.gltf",
+      "vertices": 5900,
+      "triangles": 4066,
+      "materials": 2
+    },
+    "CommonTree_5": {
+      "url": "/assets/nature/CommonTree_5.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/CommonTree_5.gltf",
+      "vertices": 4873,
+      "triangles": 3182,
+      "materials": 2
+    },
+    "Pine_2": {
+      "url": "/assets/nature/Pine_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pine_2.gltf",
+      "vertices": 4926,
+      "triangles": 3648,
+      "materials": 2
+    },
+    "Pine_4": {
+      "url": "/assets/nature/Pine_4.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pine_4.gltf",
+      "vertices": 4888,
+      "triangles": 3370,
+      "materials": 2
+    },
+    "Clover_2": {
+      "url": "/assets/nature/Clover_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Clover_2.gltf",
+      "vertices": 433,
+      "triangles": 615,
+      "materials": 1
+    },
+    "Grass_Common_Tall": {
+      "url": "/assets/nature/Grass_Common_Tall.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Grass_Common_Tall.gltf",
+      "vertices": 303,
+      "triangles": 326,
+      "materials": 1
+    },
+    "Grass_Wispy_Short": {
+      "url": "/assets/nature/Grass_Wispy_Short.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Grass_Wispy_Short.gltf",
+      "vertices": 559,
+      "triangles": 494,
+      "materials": 1
+    },
+    "Pine_1": {
+      "url": "/assets/nature/Pine_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pine_1.gltf",
+      "vertices": 5246,
+      "triangles": 3947,
+      "materials": 2
+    },
+    "Pine_3": {
+      "url": "/assets/nature/Pine_3.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pine_3.gltf",
+      "vertices": 6573,
+      "triangles": 4964,
+      "materials": 2
+    },
+    "TwistedTree_1": {
+      "url": "/assets/nature/TwistedTree_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/TwistedTree_1.gltf",
+      "vertices": 14064,
+      "triangles": 9564,
+      "materials": 2
+    },
+    "TwistedTree_2": {
+      "url": "/assets/nature/TwistedTree_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/TwistedTree_2.gltf",
+      "vertices": 13407,
+      "triangles": 9134,
+      "materials": 2
+    },
+    "DeadTree_1": {
+      "url": "/assets/nature/DeadTree_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/DeadTree_1.gltf",
+      "vertices": 8036,
+      "triangles": 6169,
+      "materials": 1
+    },
+    "Bush_Common": {
+      "url": "/assets/nature/Bush_Common.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Bush_Common.gltf",
+      "vertices": 1800,
+      "triangles": 900,
+      "materials": 1
+    },
+    "Bush_Common_Flowers": {
+      "url": "/assets/nature/Bush_Common_Flowers.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Bush_Common_Flowers.gltf",
+      "vertices": 2515,
+      "triangles": 1368,
+      "materials": 2
+    },
+    "Fern_1": {
+      "url": "/assets/nature/Fern_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Fern_1.gltf",
+      "vertices": 243,
+      "triangles": 288,
+      "materials": 1
+    },
+    "Clover_1": {
+      "url": "/assets/nature/Clover_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Clover_1.gltf",
+      "vertices": 267,
+      "triangles": 379,
+      "materials": 1
+    },
+    "Flower_3_Group": {
+      "url": "/assets/nature/Flower_3_Group.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Flower_3_Group.gltf",
+      "vertices": 581,
+      "triangles": 755,
+      "materials": 2
+    },
+    "Flower_4_Group": {
+      "url": "/assets/nature/Flower_4_Group.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Flower_4_Group.gltf",
+      "vertices": 1302,
+      "triangles": 1690,
+      "materials": 2
+    },
+    "Grass_Common_Short": {
+      "url": "/assets/nature/Grass_Common_Short.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Grass_Common_Short.gltf",
+      "vertices": 153,
+      "triangles": 155,
+      "materials": 1
+    },
+    "Grass_Wispy_Tall": {
+      "url": "/assets/nature/Grass_Wispy_Tall.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Grass_Wispy_Tall.gltf",
+      "vertices": 644,
+      "triangles": 622,
+      "materials": 1
+    },
+    "Rock_Medium_1": {
+      "url": "/assets/nature/Rock_Medium_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Rock_Medium_1.gltf",
+      "vertices": 351,
+      "triangles": 342,
+      "materials": 1
+    },
+    "Rock_Medium_2": {
+      "url": "/assets/nature/Rock_Medium_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Rock_Medium_2.gltf",
+      "vertices": 249,
+      "triangles": 244,
+      "materials": 1
+    },
+    "Rock_Medium_3": {
+      "url": "/assets/nature/Rock_Medium_3.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Rock_Medium_3.gltf",
+      "vertices": 531,
+      "triangles": 522,
+      "materials": 1
+    },
+    "RockPath_Round_Wide": {
+      "url": "/assets/nature/RockPath_Round_Wide.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/RockPath_Round_Wide.gltf",
+      "vertices": 7084,
+      "triangles": 3500,
+      "materials": 1
+    },
+    "RockPath_Round_Small_1": {
+      "url": "/assets/nature/RockPath_Round_Small_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/RockPath_Round_Small_1.gltf",
+      "vertices": 2036,
+      "triangles": 998,
+      "materials": 1
+    },
+    "Mushroom_Common": {
+      "url": "/assets/nature/Mushroom_Common.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Mushroom_Common.gltf",
+      "vertices": 555,
+      "triangles": 880,
+      "materials": 1
+    },
+    "Plant_1": {
+      "url": "/assets/nature/Plant_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Plant_1.gltf",
+      "vertices": 120,
+      "triangles": 120,
+      "materials": 1
+    },
+    "Pebble_Round_1": {
+      "url": "/assets/nature/Pebble_Round_1.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pebble_Round_1.gltf",
+      "vertices": 292,
+      "triangles": 136,
+      "materials": 1
+    },
+    "RockPath_Round_Thin": {
+      "url": "/assets/nature/RockPath_Round_Thin.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/RockPath_Round_Thin.gltf",
+      "vertices": 4556,
+      "triangles": 2254,
+      "materials": 1
+    },
+    "RockPath_Round_Small_2": {
+      "url": "/assets/nature/RockPath_Round_Small_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/RockPath_Round_Small_2.gltf",
+      "vertices": 2264,
+      "triangles": 1126,
+      "materials": 1
+    },
+    "RockPath_Round_Small_3": {
+      "url": "/assets/nature/RockPath_Round_Small_3.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/RockPath_Round_Small_3.gltf",
+      "vertices": 2026,
+      "triangles": 1002,
+      "materials": 1
+    },
+    "Pebble_Round_2": {
+      "url": "/assets/nature/Pebble_Round_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pebble_Round_2.gltf",
+      "vertices": 212,
+      "triangles": 114,
+      "materials": 1
+    },
+    "Pebble_Round_3": {
+      "url": "/assets/nature/Pebble_Round_3.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Pebble_Round_3.gltf",
+      "vertices": 244,
+      "triangles": 128,
+      "materials": 1
+    },
+    "Flower_3_Single": {
+      "url": "/assets/nature/Flower_3_Single.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Flower_3_Single.gltf",
+      "vertices": 227,
+      "triangles": 285,
+      "materials": 2
+    },
+    "Flower_4_Single": {
+      "url": "/assets/nature/Flower_4_Single.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Flower_4_Single.gltf",
+      "vertices": 499,
+      "triangles": 642,
+      "materials": 2
+    },
+    "Mushroom_Laetiporus": {
+      "url": "/assets/nature/Mushroom_Laetiporus.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/Mushroom_Laetiporus.gltf",
+      "vertices": 1806,
+      "triangles": 3216,
+      "materials": 1
+    },
+    "DeadTree_2": {
+      "url": "/assets/nature/DeadTree_2.gltf",
+      "kit": "nature",
+      "archive": "Stylized Nature MegaKit[Standard].zip",
+      "source": "glTF/DeadTree_2.gltf",
+      "vertices": 8635,
+      "triangles": 6557,
+      "materials": 1
+    },
+    "Anvil_Log": {
+      "url": "/assets/props/Anvil_Log.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Anvil_Log.gltf",
+      "vertices": 3376,
+      "triangles": 3808,
+      "materials": 3
+    },
+    "Barrel": {
+      "url": "/assets/props/Barrel.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Barrel.gltf",
+      "vertices": 1305,
+      "triangles": 824,
+      "materials": 2
+    },
+    "Barrel_Apples": {
+      "url": "/assets/props/Barrel_Apples.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Barrel_Apples.gltf",
+      "vertices": 2243,
+      "triangles": 2480,
+      "materials": 3
+    },
+    "Bed_Twin1": {
+      "url": "/assets/props/Bed_Twin1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bed_Twin1.gltf",
+      "vertices": 1694,
+      "triangles": 1600,
+      "materials": 3
+    },
+    "Bench": {
+      "url": "/assets/props/Bench.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bench.gltf",
+      "vertices": 422,
+      "triangles": 404,
+      "materials": 2
+    },
+    "Bookcase_2": {
+      "url": "/assets/props/Bookcase_2.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bookcase_2.gltf",
+      "vertices": 2002,
+      "triangles": 2148,
+      "materials": 2
+    },
+    "BookGroup_Medium_1": {
+      "url": "/assets/props/BookGroup_Medium_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/BookGroup_Medium_1.gltf",
+      "vertices": 576,
+      "triangles": 416,
+      "materials": 1
+    },
+    "Bottle_1": {
+      "url": "/assets/props/Bottle_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bottle_1.gltf",
+      "vertices": 302,
+      "triangles": 312,
+      "materials": 1
+    },
+    "Bucket_Wooden_1": {
+      "url": "/assets/props/Bucket_Wooden_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bucket_Wooden_1.gltf",
+      "vertices": 834,
+      "triangles": 976,
+      "materials": 2
+    },
+    "Cabinet": {
+      "url": "/assets/props/Cabinet.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Cabinet.gltf",
+      "vertices": 2511,
+      "triangles": 2388,
+      "materials": 2
+    },
+    "CandleStick_Triple": {
+      "url": "/assets/props/CandleStick_Triple.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/CandleStick_Triple.gltf",
+      "vertices": 1850,
+      "triangles": 2528,
+      "materials": 2
+    },
+    "CandleStick_Stand": {
+      "url": "/assets/props/CandleStick_Stand.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/CandleStick_Stand.gltf",
+      "vertices": 4795,
+      "triangles": 5738,
+      "materials": 2
+    },
+    "Cauldron": {
+      "url": "/assets/props/Cauldron.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Cauldron.gltf",
+      "vertices": 1581,
+      "triangles": 2020,
+      "materials": 1
+    },
+    "Chair_1": {
+      "url": "/assets/props/Chair_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Chair_1.gltf",
+      "vertices": 628,
+      "triangles": 496,
+      "materials": 2
+    },
+    "Chandelier": {
+      "url": "/assets/props/Chandelier.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Chandelier.gltf",
+      "vertices": 5815,
+      "triangles": 5680,
+      "materials": 3
+    },
+    "Chest_Wood": {
+      "url": "/assets/props/Chest_Wood.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Chest_Wood.gltf",
+      "vertices": 3200,
+      "triangles": 2546,
+      "materials": 2
+    },
+    "Crate_Wooden": {
+      "url": "/assets/props/Crate_Wooden.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Crate_Wooden.gltf",
+      "vertices": 1426,
+      "triangles": 1576,
+      "materials": 2
+    },
+    "FarmCrate_Carrot": {
+      "url": "/assets/props/FarmCrate_Carrot.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/FarmCrate_Carrot.gltf",
+      "vertices": 4318,
+      "triangles": 5262,
+      "materials": 3
+    },
+    "FarmCrate_Apple": {
+      "url": "/assets/props/FarmCrate_Apple.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/FarmCrate_Apple.gltf",
+      "vertices": 2758,
+      "triangles": 4028,
+      "materials": 3
+    },
+    "Lantern_Wall": {
+      "url": "/assets/props/Lantern_Wall.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Lantern_Wall.gltf",
+      "vertices": 3222,
+      "triangles": 2822,
+      "materials": 1
+    },
+    "Potion_1": {
+      "url": "/assets/props/Potion_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Potion_1.gltf",
+      "vertices": 389,
+      "triangles": 440,
+      "materials": 1
+    },
+    "Pot_1": {
+      "url": "/assets/props/Pot_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Pot_1.gltf",
+      "vertices": 961,
+      "triangles": 1068,
+      "materials": 1
+    },
+    "Scroll_1": {
+      "url": "/assets/props/Scroll_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Scroll_1.gltf",
+      "vertices": 426,
+      "triangles": 512,
+      "materials": 2
+    },
+    "Shelf_Small_Bottles": {
+      "url": "/assets/props/Shelf_Small_Bottles.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Shelf_Small_Bottles.gltf",
+      "vertices": 4952,
+      "triangles": 5234,
+      "materials": 3
+    },
+    "Stall_Cart_Empty": {
+      "url": "/assets/props/Stall_Cart_Empty.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Stall_Cart_Empty.gltf",
+      "vertices": 4451,
+      "triangles": 3936,
+      "materials": 3
+    },
+    "Stall_Empty": {
+      "url": "/assets/props/Stall_Empty.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Stall_Empty.gltf",
+      "vertices": 1650,
+      "triangles": 1496,
+      "materials": 3
+    },
+    "Stool": {
+      "url": "/assets/props/Stool.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Stool.gltf",
+      "vertices": 264,
+      "triangles": 152,
+      "materials": 1
+    },
+    "Table_Large": {
+      "url": "/assets/props/Table_Large.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Table_Large.gltf",
+      "vertices": 1262,
+      "triangles": 986,
+      "materials": 2
+    },
+    "Torch_Metal": {
+      "url": "/assets/props/Torch_Metal.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Torch_Metal.gltf",
+      "vertices": 1040,
+      "triangles": 970,
+      "materials": 1
+    },
+    "Vase_2": {
+      "url": "/assets/props/Vase_2.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Vase_2.gltf",
+      "vertices": 440,
+      "triangles": 598,
+      "materials": 1
+    },
+    "Vase_4": {
+      "url": "/assets/props/Vase_4.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Vase_4.gltf",
+      "vertices": 461,
+      "triangles": 598,
+      "materials": 1
+    },
+    "Chalice": {
+      "url": "/assets/props/Chalice.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Chalice.gltf",
+      "vertices": 403,
+      "triangles": 458,
+      "materials": 1
+    },
+    "Vase_Rubble_Medium": {
+      "url": "/assets/props/Vase_Rubble_Medium.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Vase_Rubble_Medium.gltf",
+      "vertices": 1982,
+      "triangles": 1113,
+      "materials": 1
+    },
+    "WeaponStand": {
+      "url": "/assets/props/WeaponStand.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/WeaponStand.gltf",
+      "vertices": 1994,
+      "triangles": 2084,
+      "materials": 2
+    },
+    "Workbench": {
+      "url": "/assets/props/Workbench.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Workbench.gltf",
+      "vertices": 1380,
+      "triangles": 1368,
+      "materials": 2
+    },
+    "Banner_1": {
+      "url": "/assets/props/Banner_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Banner_1.gltf",
+      "vertices": 381,
+      "triangles": 448,
+      "materials": 3
+    },
+    "Bag": {
+      "url": "/assets/props/Bag.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Bag.gltf",
+      "vertices": 551,
+      "triangles": 858,
+      "materials": 2
+    },
+    "SmallBottles_1": {
+      "url": "/assets/props/SmallBottles_1.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/SmallBottles_1.gltf",
+      "vertices": 441,
+      "triangles": 486,
+      "materials": 1
+    },
+    "Pouch_Large": {
+      "url": "/assets/props/Pouch_Large.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Pouch_Large.gltf",
+      "vertices": 680,
+      "triangles": 730,
+      "materials": 2
+    },
+    "Shield_Wooden": {
+      "url": "/assets/props/Shield_Wooden.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Shield_Wooden.gltf",
+      "vertices": 1394,
+      "triangles": 1404,
+      "materials": 3
+    },
+    "Coin": {
+      "url": "/assets/props/Coin.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Coin.gltf",
+      "vertices": 316,
+      "triangles": 304,
+      "materials": 1
+    },
+    "Chain_Coil": {
+      "url": "/assets/props/Chain_Coil.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Chain_Coil.gltf",
+      "vertices": 4280,
+      "triangles": 3744,
+      "materials": 1
+    },
+    "Banner_2": {
+      "url": "/assets/props/Banner_2.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Banner_2.gltf",
+      "vertices": 348,
+      "triangles": 429,
+      "materials": 3
+    },
+    "BookStand": {
+      "url": "/assets/props/BookStand.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/BookStand.gltf",
+      "vertices": 1652,
+      "triangles": 1526,
+      "materials": 1
+    },
+    "Key_Gold": {
+      "url": "/assets/props/Key_Gold.gltf",
+      "kit": "props",
+      "archive": "Fantasy Props MegaKit[Standard].zip",
+      "source": "Exports/glTF/Key_Gold.gltf",
+      "vertices": 1261,
+      "triangles": 1366,
+      "materials": 1
+    }
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "horn0",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "horn1",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6992
+  },
+  {
+    "id": "horn2",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6992
+  },
+  {
+    "id": "horn3",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "horn4",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "horn5",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "horn6",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6992
+  },
+  {
+    "id": "horn7",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6992
+  },
+  {
+    "id": "head0",
+    "parts": 11,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 3432
+  },
+  {
+    "id": "head1",
+    "parts": 5,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10528
+  },
+  {
+    "id": "head2",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 3736
+  },
+  {
+    "id": "head3",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 3736
+  },
+  {
+    "id": "head4",
+    "parts": 5,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10528
+  },
+  {
+    "id": "head5",
+    "parts": 13,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 3736
+  },
+  {
+    "id": "body0",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15376
+  },
+  {
+    "id": "body1",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15248
+  },
+  {
+    "id": "body2",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15376
+  },
+  {
+    "id": "body3",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15248
+  },
+  {
+    "id": "body4",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15376
+  },
+  {
+    "id": "body5",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15248
+  },
+  {
+    "id": "body6",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15376
+  },
+  {
+    "id": "body7",
+    "parts": 65,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 15376
+  },
+  {
+    "id": "feet0",
+    "parts": 6,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "feet1",
+    "parts": 7,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 8160
+  },
+  {
+    "id": "feet2",
+    "parts": 7,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 8160
+  },
+  {
+    "id": "feet3",
+    "parts": 6,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "feet4",
+    "parts": 7,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 8160
+  },
+  {
+    "id": "feet5",
+    "parts": 6,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 6688
+  },
+  {
+    "id": "charm0",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10728
+  },
+  {
+    "id": "charm1",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10728
+  },
+  {
+    "id": "charm2",
+    "parts": 17,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 11032
+  },
+  {
+    "id": "charm3",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10728
+  },
+  {
+    "id": "charm4",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10728
+  },
+  {
+    "id": "charm5",
+    "parts": 15,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 10728
+  },
+  {
+    "id": "charm6",
+    "parts": 17,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 11032
+  },
+  {
+    "id": "charm7",
+    "parts": 17,
+    "source": "Tailored in this project for the original Blender proportions",
+    "triangles": 11032
+  }
+]

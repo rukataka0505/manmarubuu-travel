@@ -1,0 +1,280 @@
+{
+  "author": "Quaternius",
+  "license": "CC0-1.0",
+  "source": "https://quaternius.com/packs/ultimatemonsters.html",
+  "files": {
+    "Blob_GreenBlob": {
+      "file": "Blob_GreenBlob.glb",
+      "bytes": 87896,
+      "sha256": "7411ce7ca14556e8941bf49c5329678b9dbc47f5020113ae2d5f3f7b12e72d44",
+      "sourceFileId": "1Qj3EPCAzN7P3KNrfjV_sFMw98nsBUyob",
+      "animations": [
+        "Bite_Front",
+        "Dance",
+        "Death",
+        "HitRecieve",
+        "Idle",
+        "Jump",
+        "No",
+        "Walk",
+        "Yes"
+      ]
+    },
+    "Blob_Mushnub": {
+      "file": "Blob_Mushnub.glb",
+      "bytes": 77020,
+      "sha256": "ad95ad12ed67831bf1dacb35e5431248bff75adbe52a0668dd0fb71c1d2498f9",
+      "sourceFileId": "1bNqyLU2o3FbQueRyaHFuhxN_XEGosnwo",
+      "animations": [
+        "Bite_Front",
+        "Dance",
+        "Death",
+        "HitRecieve",
+        "Idle",
+        "Jump",
+        "No",
+        "Walk",
+        "Yes"
+      ]
+    },
+    "Blob_GreenSpikyBlob": {
+      "file": "Blob_GreenSpikyBlob.glb",
+      "bytes": 211160,
+      "sha256": "69f96a588d3a4139cc55382fbaebebe2bf23008f49c288b6487b06a4a2316faa",
+      "sourceFileId": "125zPNBLl1VAgzhfVom9Kj29hSClaZhjF",
+      "animations": [
+        "Bite_Front",
+        "Dance",
+        "Death",
+        "HitRecieve",
+        "Idle",
+        "Jump",
+        "No",
+        "Walk",
+        "Yes"
+      ]
+    },
+    "Blob_Yeti": {
+      "file": "Blob_Yeti.glb",
+      "bytes": 121524,
+      "sha256": "a815589e7c47032cbb9d59d48fe515ce1d4fcdc0b938636cb9b0edaa6090a800",
+      "sourceFileId": "1VpqldMiSmrmoDtTqA5PqOZ0FrPIKKjiP",
+      "animations": [
+        "Bite_Front",
+        "Dance",
+        "Death",
+        "HitRecieve",
+        "Idle",
+        "Jump",
+        "No",
+        "Walk",
+        "Yes"
+      ]
+    },
+    "Blob_Wizard": {
+      "file": "Blob_Wizard.glb",
+      "bytes": 98756,
+      "sha256": "4900f707e593ebf1846ae97e7338bd2fb846ea2f74a20e9d5c83ab51932b8df4",
+      "sourceFileId": "1lkfBVrpoKi3JwrkJ3M_vwi7tQXG53RjV",
+      "animations": [
+        "Bite_Front",
+        "Dance",
+        "Death",
+        "HitRecieve",
+        "Idle",
+        "Jump",
+        "No",
+        "Walk",
+        "Yes"
+      ]
+    },
+    "Flying_Armabee": {
+      "file": "Flying_Armabee.glb",
+      "bytes": 170668,
+      "sha256": "ff05f253ec4059be6da20b208854e1073a33537b575204ee239aa18038ed7f68",
+      "sourceFileId": "1k7LbRse-00nyMQhTdJMvebPp8B-05hcG",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Armabee_Evolved": {
+      "file": "Flying_Armabee_Evolved.glb",
+      "bytes": 215892,
+      "sha256": "5a333277d2498e83150ae86f0cf21dffde6921ad1dc092423a060c1daef5fea4",
+      "sourceFileId": "196ay2r-nuDXcRiwYu84CoE7Qy_gBj8sB",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Dragon": {
+      "file": "Flying_Dragon.glb",
+      "bytes": 268032,
+      "sha256": "2acdb52f1c13fec9511c827801f25b45242ca0a7d4be6dba8a0fa74746ba161b",
+      "sourceFileId": "1-mQSm6_oGt7-EEQfNj1dFWYgPQy4AdPC",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Ghost": {
+      "file": "Flying_Ghost.glb",
+      "bytes": 327808,
+      "sha256": "99ef4aabda0c9eab8739f4c78de4caf938c5c2aa45a52c156df5217809e22a2c",
+      "sourceFileId": "1rUs1QRA9v1Y2wRYEXsfteBisTsz4JlLi",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Ghost_Skull": {
+      "file": "Flying_Ghost_Skull.glb",
+      "bytes": 357208,
+      "sha256": "cd658e6eff200e1fac5647544fa240a4eb4f482d94386b8497ab0340a0734a08",
+      "sourceFileId": "1JIw8lx6H5IIhf_3Z5FprEu_yCoMcoRN7",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Glub": {
+      "file": "Flying_Glub.glb",
+      "bytes": 179164,
+      "sha256": "067ecff647aca332983211e67a8c597910a97503f81872354d72f4c1156151d0",
+      "sourceFileId": "1X-6f4qyrbloGVq3wf-IdxUgmuA0u1JGu",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Goleling": {
+      "file": "Flying_Goleling.glb",
+      "bytes": 236516,
+      "sha256": "78c8603e951ba02ae817476c10f2e7787f60be6293a08026cbf3455d64d95402",
+      "sourceFileId": "1bVAbwxtJhLOBpuJNtl3XBbJhl4cDPdcL",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Goleling_Evolved": {
+      "file": "Flying_Goleling_Evolved.glb",
+      "bytes": 318484,
+      "sha256": "53de4c6df83b71b5433ee16148fe62cea336b99e92dd9b18238e5e920f1dcf7b",
+      "sourceFileId": "1DXqke-QxMth9mq5eYiawcmJDACm4-jvL",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Flying_Dragon_Evolved": {
+      "file": "Flying_Dragon_Evolved.glb",
+      "bytes": 555944,
+      "sha256": "bb936113f2e359c13487e1e40fc83349505b801bb958ad17935c1d5abe83f188",
+      "sourceFileId": "1Mcfuavq7F4itG9xhqc-20_IL257ZY2_3",
+      "animations": [
+        "Death",
+        "Fast_Flying",
+        "Flying_Idle",
+        "Headbutt",
+        "HitReact",
+        "No",
+        "Punch",
+        "Yes"
+      ]
+    },
+    "Big_Orc": {
+      "file": "Big_Orc.glb",
+      "bytes": 671652,
+      "sha256": "e4c3058ecbbcf7388edc709e107c501800c7837efc50a4c52ae48be33b2e5442",
+      "sourceFileId": "17675H4Owu5FeHUk_7Goyc9TKI5YK3cEM",
+      "animations": [
+        "Death",
+        "Duck",
+        "HitReact",
+        "Idle",
+        "Jump",
+        "Jump_Idle",
+        "Jump_Land",
+        "No",
+        "Punch",
+        "Run",
+        "Walk",
+        "Wave",
+        "Weapon",
+        "Yes"
+      ]
+    },
+    "Big_Orc_Skull": {
+      "file": "Big_Orc_Skull.glb",
+      "bytes": 676468,
+      "sha256": "70231316711db3d6aef7e62468571290f5942cb94346e3fe8e2f56f7e2ea5575",
+      "sourceFileId": "13wbbztVj_2eYyF5lavumLvK9JyCfQEhI",
+      "animations": [
+        "Death",
+        "Duck",
+        "HitReact",
+        "Idle",
+        "Jump",
+        "Jump_Idle",
+        "Jump_Land",
+        "No",
+        "Punch",
+        "Run",
+        "Walk",
+        "Wave",
+        "Weapon",
+        "Yes"
+      ]
+    }
+  }
+}
